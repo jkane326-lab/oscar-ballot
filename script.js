@@ -83,31 +83,35 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = {};
             formData.forEach((value, key) => data[key] = value);
 
+// ... inside the submit listener ...
+
             // SEND TO GOOGLE SHEETS
-            // This is your specific Google Script URL
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbxPszDc4RoMLe3s_K9Lvcuos0rkG0xmaS1M3wvHrgqzbdyGAkRhs3GqkYcEl-AdP19d/exec';
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwQnP5gBXh5iimT5T7T7J5MG5zwGg22c5z4waBy3KXt0WnGmwo_jW6QUH1H7kK_OFbo/exec';
 
             fetch(scriptURL, { 
                 method: 'POST', 
                 body: JSON.stringify(data),
-                mode: 'no-cors', // CRITICAL: This allows the data to send without error
+                // IMPORTANT: We use text/plain to avoid the "CORS Preflight" check.
+                // Google will still read the JSON inside perfectly fine.
                 headers: {
-                    "Content-Type": "application/json",
+                    "Content-Type": "text/plain;charset=utf-8",
                 },
             })
-                .then(() => {
-                    // Because of 'no-cors', we won't get a readable response, 
-                    // so we assume success if it didn't crash.
+                .then(response => {
+                    // Google will return a success, showing the message.
                     document.querySelector('.user-info').style.display = 'none';
                     document.getElementById('success-message').style.display = 'block';
                     window.scrollTo(0, document.body.scrollHeight);
                 })
                 .catch(error => {
                     console.error('Error!', error.message);
-                    alert("Something went wrong. Please check your internet connection and try again.");
+                    // Even if it looks like an error, sometimes it still works because of the 302 Redirect.
+                    // But usually, this catch means a real network failure.
+                    alert("Something went wrong. Please try again.");
                     btn.textContent = "Submit Ballot";
                     btn.disabled = false;
                 });
         });
     }
 });
+
