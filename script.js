@@ -74,12 +74,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const data = {};
         formData.forEach((value, key) => data[key] = value);
 
-        // SEND TO GOOGLE SHEETS (We will set this URL up in the next step)
-        // Replace 'YOUR_SCRIPT_URL_HERE' with the actual URL later
+     // SEND TO GOOGLE SHEETS
         const scriptURL = 'https://script.google.com/macros/s/AKfycbxPszDc4RoMLe3s_K9Lvcuos0rkG0xmaS1M3wvHrgqzbdyGAkRhs3GqkYcEl-AdP19d/exec';
 
-        fetch(scriptURL, { method: 'POST', body: JSON.stringify(data) })
+        fetch(scriptURL, { 
+            method: 'POST', 
+            body: JSON.stringify(data),
+            // This header forces the browser to treat this as a simple text request, avoiding CORS blocks
+            headers: {
+                "Content-Type": "text/plain;charset=utf-8",
+            },
+        })
             .then(response => {
+                // Google Scripts doesn't always return a standard "ok" when accessed this way, 
+                // so we assume if the request finished, it worked.
                 document.querySelector('.user-info').style.display = 'none';
                 document.getElementById('success-message').style.display = 'block';
                 window.scrollTo(0, document.body.scrollHeight);
@@ -90,5 +98,3 @@ document.addEventListener('DOMContentLoaded', () => {
                 btn.textContent = "Submit Ballot";
                 btn.disabled = false;
             });
-    });
-});
