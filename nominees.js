@@ -102,7 +102,7 @@ const categories = [
         name: "Best Makeup and Hairstyling",
         group: "Technical",
         nominees: ["Frankenstein", "Kokuho", "Sinners", "The Smashing Machine", "The Ugly Stepsister"],
-        winner: null
+        winner: 0
     },
     {
         name: "Best Original Song",
