@@ -138,7 +138,7 @@ const categories = [
         name: "Best Animated Short",
         group: "Shorts",
         nominees: ["Butterfly", "Forevergreen", "The Girl Who Cried Pearls", "Retirement Plan", "The Three Sisters"],
-        winner: null
+        winner: 3
     },
     {
         name: "Best Documentary Short",
