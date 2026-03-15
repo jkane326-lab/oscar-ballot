@@ -60,7 +60,7 @@ const categories = [
         name: "Best Animated Feature",
         group: "Features",
         nominees: ["Arco", "Elio", "KPop Demon Hunters", "Little Amélie or the Character of Rain", "Zootopia 2"],
-        winner: null
+        winner: 2
     },
     {
         name: "Best Documentary Feature",
