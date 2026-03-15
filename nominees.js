@@ -96,7 +96,7 @@ const categories = [
         name: "Best Costume Design",
         group: "Technical",
         nominees: ["Avatar: Fire and Ash", "Frankenstein", "Hamnet", "Marty Supreme", "Sinners"],
-        winner: null
+        winner: 2
     },
     {
         name: "Best Makeup and Hairstyling",
