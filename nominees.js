@@ -36,7 +36,7 @@ const categories = [
         name: "Best Supporting Actress",
         group: "Acting",
         nominees: ["Elle Fanning (Sentimental Value)", "Inga Ibsdotter Lilleaas (Sentimental Value)", "Amy Madigan (Weapons)", "Wunmi Mosaku (Sinners)", "Teyana Taylor (One Battle After Another)"],
-        winner: null
+        winner: 2
     },
     {
         name: "Best Original Screenplay",
