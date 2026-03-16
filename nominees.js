@@ -132,7 +132,7 @@ const categories = [
         name: "Best Live-Action Short",
         group: "Shorts",
         nominees: ["Butcher's Stain", "A Friend of Dorothy", "Jane Austen's Period Drama", "The Singers", "Two People Exchanging Saliva"],
-        winner: null
+        winner: 3, 4
     },
     {
         name: "Best Animated Short",
