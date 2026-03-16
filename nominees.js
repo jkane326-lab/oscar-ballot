@@ -42,7 +42,7 @@ const categories = [
         name: "Best Original Screenplay",
         group: "Writing",
         nominees: ["Blue Moon", "It Was Just an Accident", "Marty Supreme", "Sentimental Value", "Sinners"],
-        winner: null
+        winner: 4
     },
     {
         name: "Best Adapted Screenplay",
