@@ -48,7 +48,7 @@ const categories = [
         name: "Best Adapted Screenplay",
         group: "Writing",
         nominees: ["Bugonia", "Frankenstein", "Hamnet", "One Battle After Another", "Train Dreams"],
-        winner: null
+        winner: 3
     },
     {
         name: "Best International Feature",
