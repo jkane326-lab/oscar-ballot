@@ -72,7 +72,7 @@ const categories = [
         name: "Best Casting",
         group: "Technical",
         nominees: ["Hamnet", "Marty Supreme", "One Battle After Another", "The Secret Agent", "Sinners"],
-        winner: null
+        winner: 2
     },
     {
         name: "Best Film Editing",
