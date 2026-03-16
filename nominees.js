@@ -30,7 +30,7 @@ const categories = [
         name: "Best Supporting Actor",
         group: "Acting",
         nominees: ["Benicio Del Toro (One Battle After Another)", "Jacob Elordi (Frankenstein)", "Delroy Lindo (Sinners)", "Sean Penn (One Battle After Another)", "Stellan Skarsgård (Sentimental Value)"],
-        winner: null
+        winner: 3
     },
     {
         name: "Best Supporting Actress",
@@ -132,7 +132,7 @@ const categories = [
         name: "Best Live-Action Short",
         group: "Shorts",
         nominees: ["Butcher's Stain", "A Friend of Dorothy", "Jane Austen's Period Drama", "The Singers", "Two People Exchanging Saliva"],
-        winner: 3, 4
+        winner: 3
     },
     {
         name: "Best Animated Short",
