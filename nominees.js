@@ -18,7 +18,7 @@ const categories = [
         name: "Best Actor",
         group: "Acting",
         nominees: ["Timothée Chalamet (Marty Supreme)", "Leonardo DiCaprio (One Battle After Another)", "Ethan Hawke (Blue Moon)", "Michael B. Jordan (Sinners)", "Wagner Moura (The Secret Agent)"],
-        winner: null
+        winner: 3
     },
     {
         name: "Best Actress",
