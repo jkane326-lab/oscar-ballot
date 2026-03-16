@@ -126,7 +126,7 @@ const categories = [
         name: "Best Visual Effects",
         group: "Music & Sound",
         nominees: ["Avatar: Fire and Ash", "F1", "Jurassic World: Rebirth", "The Lost Bus", "Sinners"],
-        winner: null
+        winner: 0
     },
     {
         name: "Best Live-Action Short",
