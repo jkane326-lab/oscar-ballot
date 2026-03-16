@@ -78,7 +78,7 @@ const categories = [
         name: "Best Film Editing",
         group: "Technical",
         nominees: ["F1", "Marty Supreme", "One Battle After Another", "Sentimental Value", "Sinners"],
-        winner: null
+        winner: 2
     },
     {
         name: "Best Cinematography",
