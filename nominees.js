@@ -84,7 +84,7 @@ const categories = [
         name: "Best Cinematography",
         group: "Technical",
         nominees: ["Frankenstein", "Marty Supreme", "One Battle After Another", "Sinners", "Train Dreams"],
-        winner: null
+        winner: 3
     },
     {
         name: "Best Production Design",
