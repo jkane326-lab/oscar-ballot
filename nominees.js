@@ -66,7 +66,7 @@ const categories = [
         name: "Best Documentary Feature",
         group: "Features",
         nominees: ["The Alabama Solution", "Come See Me in the Good Light", "Cutting Through Rocks", "Mr Nobody Against Putin", "The Perfect Neighbor"],
-        winner: null
+        winner: 3
     },
     {
         name: "Best Casting",
@@ -144,6 +144,6 @@ const categories = [
         name: "Best Documentary Short",
         group: "Shorts",
         nominees: ["All the Empty Rooms", "Armed Only with a Camera: The Life and Death of Brent Renaud", "Children No More", "The Devil Is Busy", "Perfectly a Strangeness"],
-        winner: null
+        winner: 0
     }
 ];
