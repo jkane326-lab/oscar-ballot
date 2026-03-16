@@ -12,7 +12,7 @@ const categories = [
         name: "Best Director",
         group: "The Big Ones",
         nominees: ["Chloé Zhao (Hamnet)", "Josh Safdie (Marty Supreme)", "Paul Thomas Anderson (One Battle After Another)", "Joachim Trier (Sentimental Value)", "Ryan Coogler (Sinners)"],
-        winner: null
+        winner: 2
     },
     {
         name: "Best Actor",
