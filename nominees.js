@@ -6,7 +6,7 @@ const categories = [
         name: "Best Picture",
         group: "The Big Ones",
         nominees: ["Bugonia", "F1", "Frankenstein", "Hamnet", "Marty Supreme", "One Battle After Another", "The Secret Agent", "Sentimental Value", "Sinners", "Train Dreams"],
-        winner: null
+        winner: 5
     },
     {
         name: "Best Director",
@@ -24,7 +24,7 @@ const categories = [
         name: "Best Actress",
         group: "Acting",
         nominees: ["Jessie Buckley (Hamnet)", "Rose Byrne (If I Had Legs I'd Kick You)", "Kate Hudson (Song Sung Blue)", "Renate Reinsve (Sentimental Value)", "Emma Stone (Bugonia)"],
-        winner: null
+        winner: 0
     },
     {
         name: "Best Supporting Actor",
@@ -54,7 +54,7 @@ const categories = [
         name: "Best International Feature",
         group: "Features",
         nominees: ["The Secret Agent", "It Was Just an Accident", "Sentimental Value", "Sirât", "The Voice of Hind Rajab"],
-        winner: null
+        winner: 2
     },
     {
         name: "Best Animated Feature",
