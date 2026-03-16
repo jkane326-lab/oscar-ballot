@@ -108,7 +108,7 @@ const categories = [
         name: "Best Original Song",
         group: "Music & Sound",
         nominees: ["Dear Me (Diane Warren: Relentless)", "Golden (KPop Demon Hunters)", "I Lied to You (Sinners)", "Sweet Dreams of Joy (Viva Verdi!)", "Train Dreams (Train Dreams)"],
-        winner: null
+        winner: 1
     },
     {
         name: "Best Original Score",
