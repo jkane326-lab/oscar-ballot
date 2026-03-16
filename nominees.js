@@ -90,7 +90,7 @@ const categories = [
         name: "Best Production Design",
         group: "Technical",
         nominees: ["Frankenstein", "Hamnet", "Marty Supreme", "One Battle After Another", "Sinners"],
-        winner: null
+        winner: 0
     },
     {
         name: "Best Costume Design",
