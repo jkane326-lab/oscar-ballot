@@ -114,13 +114,13 @@ const categories = [
         name: "Best Original Score",
         group: "Music & Sound",
         nominees: ["Bugonia", "Frankenstein", "Hamnet", "One Battle After Another", "Sinners"],
-        winner: null
+        winner: 4
     },
     {
         name: "Best Sound",
         group: "Music & Sound",
         nominees: ["F1", "Frankenstein", "One Battle After Another", "Sinners", "Sirât"],
-        winner: null
+        winner: 0
     },
     {
         name: "Best Visual Effects",
